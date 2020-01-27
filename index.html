@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Louie Gara</title>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/821dc72462.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- top -->
+        <section id="top">
+            <div class="container-fluid top-container colored-container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarItems" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarItems">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#what-i-do">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#work">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <img class="left-cloud" src="images/cloud.png" alt="cloud image">
+                <img class="right-cloud" src="images/cloud.png" alt="cloud image">
+                <h1 class="top-header">I'm Louie</h1>
+                <p>a software developer.</p>
+                <img class="dino-img" src="images/dino.png" alt="dino image">
+            </div>
+        </section>
+        <!-- hello -->
+        <section class="hello-container" id="hello">
+            <div class="container-fluid">
+                <h2>Hi.</h2>
+                <p>I'm a software developer based in New Jersey. I have a passion for web design and development as well as video game development.</p>
+            </div>
+        </section>
+        <hr>
+        <!-- what i do -->
+        <section class="my-4" id="what-i-do">
+            <div>
+                <h1 class="my-3">How I can help.</h1>
+                    <div class="skill-row">
+                        <img class="web-dev-img" src="images/web-development.png" alt="web development image">
+                        <h3 class="py-2">Web development</h3>
+                        <p class="skill-details">I have experience with the latest front end and back end technologies including html 5, css 3, JavaScript/ jQuery, Bootstrap, Node.js, Express.js, server side Blazor, and ASP.NET.</p>
+                    </div>
+                    <div class="skill-row">
+                        <img class="game-dev-img" src="images/game-development.png" alt="game development image">
+                        <h3 class="py-2">Game Development</h3>
+                        <p class="skill-details">I have experience with C# and C++ as well as the Untiy3D, and Unreal game engines.</p>
+                    </div>
+            </div>
+        </section>
+        <hr>
+        <!-- work -->
+        <section class="my-4" id="work">
+            <h1>Work</h1>
+            <h3>click on an image to view the site.</h3>
+            <div id="work-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#work-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#work-carousel" data-slide-to="1"></li>
+                  <li data-target="#work-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active work-carousel-item">
+                    <a href="drumset/drumset.html" target="blank"><img class="work-img" src="images/drumset-site-img.png" alt="drumset site image"></a>
+                  </div>
+                  <div class="carousel-item work-carousel-item">
+                    <a href="tindog.html" target="blank"><img class="work-img" src="images/tindog-site-img.PNG" alt="Second slide"></a>
+                  </div>
+                  <div class="carousel-item work-carousel-item">
+                    <a href="simon/simon.html" target="blank"><img class="work-img" src="images/simon-site-img.PNG" alt="Third slide"></a>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#work-carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon control-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#work-carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon control-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </section>
+        <!-- contact -->
+        <section class="my-4" id="contact">
+            <h1>I can help.</h1>
+            <h3>Im currently looking for a full time position.</h3>
+            <p>If you think I would be a good fit for your company, need some help with a project, or just want to say hi, feel free to get in touch.</p>
+            <a class="btn btn-lg btn-outline-dark" href="mailto:louie.gara@outlook.com"><i class="far fa-envelope"></i> MESSAGE ME</a>
+        </section>
+        
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container-fluid colored-container footer-container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="https://www.linkedin.com/in/louis-gara-b1b35289" target="blank"><i class="fab fa-linkedin-in px-2 footer-link"></i></a> <a href="https://twitter.com/LouieGara" target="blank"><i class="fab fa-twitter px-2 footer-link"></i></a> <a href="mailto:louie.gara@outlook.com" target="blank"><i class="far fa-envelope px-2 footer-link"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-muted mt-3">© Copyright 2020 Louie Gara</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+                
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

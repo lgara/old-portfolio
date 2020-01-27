@@ -1,0 +1,172 @@
+body{
+    color: #3c4245;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+hr{
+    border: 5px dotted;
+    width: 3%;
+    border-bottom: none;
+    border-color: #5f6769;
+    margin: 50px auto;
+    opacity: 0.4;
+}
+
+.colored-container{
+    background-color: #3c4245;
+    color: #dfcdc3;
+}
+/* navbar */
+.nav-link{
+    padding: 0 18px;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+/* top */
+.top-container{
+    padding: 2% 15% 0;
+}
+
+.top-header{
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 4.5rem;
+}
+
+.dino-img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    z-index: 2;
+}
+
+.left-cloud{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.right-cloud{
+    position: absolute;
+    right: 30%;
+    top: 25%;
+}
+/* hello */
+.hello-container{
+    padding: 4% 35% 2%;
+}
+
+/* what i do */
+.web-dev-img{
+    float: left;
+    margin-right: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.game-dev-img{
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width: 50vw;
+    margin: 100px auto;
+}
+
+.skill-details{
+    text-align: left;
+}
+
+/* work */
+#work-carousel{
+    display: inline-block;
+    width: 60%;
+    align-self: center;
+    background-color: #3c4245;
+}
+
+.work-img{
+    height: 100%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.work-carousel-item{
+    height: 500px;
+}
+
+.control-icon:hover{
+    color: #5f6769;
+}
+
+/* footer */
+.footer-container{
+    padding: 2% 0 2%;
+}
+
+.footer-link{
+    color: #dfcdc3;
+}
+
+.footer-link:hover{
+    color: #5f6769;
+}
+
+@media only screen and (max-width: 1025px) {
+    .web-dev-img{
+        align-self: center;
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+    }
+    .game-dev-img{
+        align-self: center;
+        float: none;
+        display: inline-block;
+        margin-right: 0;
+    }
+    .skill-row{
+        width: 100vw;
+        padding: 10%;
+        margin: 0;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .left-cloud{
+        left: 10%;
+        top: 10%;
+    }
+    
+    .right-cloud{
+        right: 10%;
+        top: 25%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .left-cloud{
+        left: 5%;
+        top: 10%;
+    }
+    
+    .right-cloud{
+        right: 5%;
+        top: 25%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .left-cloud{
+        left: 5%;
+        top: 10%;
+    }
+    
+    .right-cloud{
+        right: 5%;
+        top: 35%;
+    }
+  }
